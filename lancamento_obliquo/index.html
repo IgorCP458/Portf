@@ -1,0 +1,83 @@
+<!DOCTYPE HTML5>
+<html>
+  <head>
+    <title>Lançamento Oblíquo</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+      <nav>
+        <img src="./imagens/Logo LIEF.png" alt="LIEF physlets" height="75" width="75" id=nav_logo>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Experimentos</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    <div class="content">
+      <h1>Lançamento Oblíquo</h1>
+      <div class="dropdown">
+        <span>Conhecendo a trajetória da projétil a partir do ângulo de arremesso e a velocidade de lançamento</span>
+        <div class="dropdown-content">
+          <p>
+            Quando lançamos uma bola de um canhão, estamos fazendo um lançamento oblíquo, ou seja, um lançamento em que a velocidade 
+            do projétil possui duas dimensões: ele se move na vertical e na horizontal. Sabendo a velocidade inicial com que o projétil, 
+            neste caso a bola do canhão, é lançada, podemos usar o ângulo de arremesso para descrever a trajetória da bola, calcular sua 
+            altura máxima, e seu alcance.
+          </p>
+        </div>
+      </div>
+      <div class="dropdown">
+      <span>Velocidade Inicial e Ângulo de lançamento</span>
+      <div class="dropdown-content">
+        <p>
+          Seja Vo a velocidade inicial da bola e θ o ângulo do arremesso. Na direção horizontal, a bola terá velocidade igual a Vx = Vo.cos(θ), 
+          e não há aceleração, portanto, a trajetória da bola nessa direção será dada pela equação         $$ {X(t) = X_0 + Vx \cdot t} $$
+          onde Xo é a posição 
+          horizontal de onde a bola é lançada. Na vertical, teremos Voy = Vo.sen(θ) mas há uma aceleração devido à força da gravidade, que deve 
+          ser contabilizada. Assim, sua trajetória será de $$ {Y(t) = Y_0 + Vy \cdot t} $$ onde Yo é a posição vertical de onde a bola é arremeçada 
+          e g é a aceleração gravitacional.
+        </p>
+      </div>
+      </div>
+
+      <div class="dropdown">
+        <span>Mas como encontro a altura máxima da bola e seu alcance?</span>
+        <div class="dropdown-content">
+          <p>
+            Bom, sabemos que a altura máxima do projétil é atingida no momento em que Vy = 0 
+           e, pela equação de Torricelli, Vy² = Voy² - 2.g.(Ymax - Yo). Assim, concluímos que $$Y_{max} = \frac{V^2_{oy}}{2g} + Yo$$ é a altura máxima que a bola alcança 
+           em sua trajetória. Sabendo isso, podemos encontrar o tempo em que isso acontece que é t = Voy/g. A bola atinge o chão no dobro desse tempo.
+           Assim, basta substituir t = 2.Voy/g em X(t) e temos que o alcance A é dado por $$A = Xo + 2\cdot V_{x0}\cdot \frac{V_{y0}}{g}$$ ou até mesmo $$A = Xo + 2\cdot \frac{V^2 \sin\theta\cos\theta}{g}$$ 
+         </p>
+        </div>
+      </div>
+      
+  
+      <p>
+        Agora é sua vez! No aplicativo abaixo você pode selecionar o ângulo de arremesso do canhão e sua velocidade inicial. Escolha a posição do alvo
+        rosa, e usando as equações acima, tente acertá-lo!
+      </p>
+      <br>
+      <div class="sim"></div>
+      <br>
+      <div class="dropdown">
+        <span>Dados Úteis</span>
+        <div class="dropdown-content">
+          Distância horizontal máxima: 70 m
+          <br> Distância vertical máxima: 35 m
+          <br>Tamanho do Alvo: 10 m de altura
+        </div>
+      </div>
+    </div>
+     
+    <script type="text/javascript" src="./node_modules/pixi.js/dist/browser/pixi.min.js"></script>
+    <script type="text/javascript" src="./node_modules/@pixi/events/dist/browser/events.js"></script>
+    <script type="text/javascript" src="./node_modules/@pixi/graphics-extras/dist/browser/graphics-extras.js"></script>
+    <script type="text/javascript" src="./app/main.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+  </body>
+</html>

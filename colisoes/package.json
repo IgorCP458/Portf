@@ -1,0 +1,20 @@
+{
+  "name": "colisao_2d",
+  "version": "1.0.0",
+  "description": "collision experiment",
+  "main": "colision-v1.js",
+  "dependencies": {
+    "@pixi/events": "^6.1.2",
+    "@pixi/graphics-extras": "^6.1.2",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "http-server": "^0.12.3",
+    "pixi.js": "^6.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduarda",
+  "license": "ISC"
+}

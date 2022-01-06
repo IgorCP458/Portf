@@ -1,0 +1,8 @@
+Já parou para pensar qual é a física por trás de um jogo de sinuca?
+
+Na sinuca, o objetivo dos jogadores é colidir a bola branca com uma bola colorida, através de um taco, de forma que a colorida seja empurrada para dentro de um dos 6 buracos no bordo da mesa. Para uma bola colorida cair dentro de um dos buracos, é necessário que durante a colisão a bola branca a empurre exatamente
+
+https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-momento-linear.htm
+https://propg.ufabc.edu.br/mnpef-sites/leis-de-conservacao/momento-linear-2/
+
+

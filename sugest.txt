@@ -1,0 +1,17 @@
+Bola branca:
+  Só a bola preta obedece às leis da Física.
+  Não existe atrito (Poderia adicionar um atrito que seria adicional)
+  Arrumar a transferência de energia cinética para diversos corpos, assim dá para adicionar bolas novas.
+  Arrumar o botão iniciar, que só funciona uma vez
+  Quando a bola bate na quina, ela trava nas bordas e começa a bugar
+  Criar espaço para digitar massa e velocidade inicial
+  Espaço para digitar ângulo
+  Linha que mostra o ângulo
+
+
+Lançamento Oblíquo:
+  Ajustar a posição inicial da bola
+  Criar um ponteiro com posição
+  Verificar se a queda está como prevista
+  Ajustar o projeto visualmente
+    Criar algumas DropBox.
